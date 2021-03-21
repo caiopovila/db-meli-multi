@@ -109,13 +109,13 @@ BEGIN
                     user = v_user,
                     email = v_email,
                     password = v_password,
-                    date_updated = NOW(),
+                    date_updated = NOW()
                     WHERE id_user = v_id;
                 ELSE
                     UPDATE users SET
-                    user = v_user
+                    user = v_user,
                     email = v_email,
-                    date_updated = NOW(),
+                    date_updated = NOW()
                     WHERE id_user = v_id;
                 END IF;
                 
