@@ -1,1 +1,5 @@
-# Banco de dados MeliMulti
+# BD Melimulti
+
+    Banco de dados para o projeto Melimulti.
+
+@Caiopovila
